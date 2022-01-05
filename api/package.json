@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "ts-node-dev ./index.ts"
   },
-  "author": "Jack Thomson <hello@jackthomson.co.uk> (http://www.jackthomson.co.uk)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
