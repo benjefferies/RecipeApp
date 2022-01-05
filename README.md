@@ -3,7 +3,24 @@ The requirement is to build and end to end application consisting of a Typescrip
 The spec below defines 3 user stories all with acceptance criteria. Do your best to interpret them and implement them. If you feel you're missing context, Ben can help clarify.
 The non-functional requirements 1 and 3 are mainly there to let me get up and running and see your stuff working.
 Could you provide a GitHub repository link with your work when you feel you've completed the task?
- 
+
+## How to run the app
+
+Open a terminal and run the following command to spin up the API and React UI
+
+```
+make install docker
+```
+
+_Navigate to http://localhost:3000 to view the UI_
+
+## How to run the tests
+
+Run the following command in a separate terminal (You must have your UI and API running)
+
+```
+make test
+```
 
 ## Build an app for a chef to store their favorite recipes.
 Ideal tech stack:
@@ -13,7 +30,7 @@ Cypress
 Docker
 
 ## Non-functional requirements
-Run the stack with `docker-compose up`
+Run the stack with `make install docker`
 Data is persisted when database is stopped and started
 End to end tests demonstrate acceptance criteria has been implemented
 
@@ -50,7 +67,7 @@ And I can see the ingredients
 And I can see the cooking methods
 
  
-## Searching favorite recipes by ingredients
+## Searching favorite recipes by ingredients (Optional)
 ### User story 3
 As a chef
 I want to search for my favorite recipe by ingredient
@@ -64,23 +81,3 @@ When I search by the ingredient of the recipe
 Then I find the recipe
 And I can see the ingredients
 And I can see the cooking methods
-
-## How to run the app
-
-Open a terminal and run the following command to spin up the API and React UI
-
-```
-docker-compose up
-```
-
-_Navigate to http://localhost:3000 to view the UI_
-
-## How to run the tests
-
-Run the following command in a separate terminal (You must have your UI and API running)
-
-```
-cd e2e
-
-npm run e2e
-```

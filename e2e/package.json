@@ -4,5 +4,9 @@
   "description": "The E2E suite Recipe Book",
   "scripts": {
     "e2e": "npx cypress run"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
   }
 }

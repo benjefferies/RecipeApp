@@ -1,8 +1,6 @@
-import { json, urlencoded } from 'body-parser'
-
-import { RecipeController } from './controllers/recipe/Recipe.controller';
-import cors from 'cors';
-import express from "express";
+import { json, urlencoded } from "body-parser";
+import cors from "cors";
+import express, { Request, Response } from "express";
 
 const app = express();
 
@@ -19,13 +17,23 @@ export class Application {
   }
 
   listen() {
-    app.listen(3080, () => console.log('Listening on port 3080'));
+    app.listen(3080, () => console.log("Listening on port 3080"));
   }
 
   setupControllers() {
-    const recipeController = new RecipeController(app);
-
-    recipeController.register();
+    app.get("/recipes", (req: Request, res: Response) => {
+      res.status(200).send("");
+    });
+    app.get("/recipes/:id", (req: Request, res: Response) => {
+      res.status(200).send("");
+    });
+    app.post("/recipes", (req: Request, res: Response) => {
+      res.status(200).send("");
+    });
+    app.delete("/recipes/:id", (req: Request, res: Response) => {
+      res.status(200).send("");
+    });
+    app;
   }
 }
 
