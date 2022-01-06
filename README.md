@@ -1,8 +1,8 @@
 # Recipe app
 The requirement is to build and end to end application consisting of a Typescript, React webapp, a Typescript API and a data store of your choice.
-The spec below defines 3 user stories all with acceptance criteria. Do your best to interpret them and implement them. If you feel you're missing context, Ben can help clarify.
-The non-functional requirements 1 and 3 are mainly there to let me get up and running and see your stuff working.
-Could you provide a GitHub repository link with your work when you feel you've completed the task?
+The spec below defines 3 user stories all with acceptance criteria. Do your best to interpret them and implement them. If you feel you're missing context, drop an email to tech-test@sero.life.
+
+Could you provide a GitHub repository link with your work when you feel you've completed the task to tech-test@sero.life?
 
 ## How to run the app
 
