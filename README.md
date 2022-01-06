@@ -81,3 +81,8 @@ When I search by the ingredient of the recipe
 Then I find the recipe
 And I can see the ingredients
 And I can see the cooking methods
+
+
+## Bonus points (Optional)
+1. Continuous integration
+2. App deployment
