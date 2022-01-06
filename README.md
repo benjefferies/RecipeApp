@@ -1,6 +1,6 @@
 # Recipe app
 ## Introduction
-[Use this repository as a template](../../generate)
+Feel free to [use this repository as a template](../../generate) or start from scractch.
 
 The requirement is to build and end to end application consisting of a Typescript, React webapp, a Typescript API and a data store of your choice.
 The spec below defines 3 user stories all with acceptance criteria. Do your best to interpret them and implement them. If you feel you're missing context, drop an email to tech-test@sero.life.
@@ -27,15 +27,15 @@ make test
 
 ## Build an app for a chef to store their favorite recipes.
 Ideal tech stack:
-Typescript
-React
-Cypress
-Docker
+- Typescript
+- React
+- Cypress
+- Docker
 
 ## Non-functional requirements
-Run the stack with `make install docker`
-Data is persisted when database is stopped and started
-End to end tests demonstrate acceptance criteria has been implemented
+- Run the whole stack with `make install docker`
+- Data is persisted when database is stopped and started
+- End to end tests demonstrate acceptance criteria has been implemented
 
 
 ## Saving favorite recipes
