@@ -1,5 +1,5 @@
 # Recipe app
-## Introduction!
+## Introduction
 Feel free to [use this repository as a template](../../generate) (Please don't fork!) or start from scractch.
 
 The requirement is to build and end to end application consisting of a Typescript, React webapp, a Typescript API and a data store of your choice.
